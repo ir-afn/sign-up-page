@@ -7,6 +7,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 *, *:before, *:after {
@@ -14,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	margin: 0;       
+    margin: 0;    
 }
 
 .hero {
@@ -115,6 +116,29 @@ h1, h2, h3, h4, h5, h6, p {
 
 .form__button:focus {
     outline-color: #3590eb;
+}
+
+.form__password {
+    position: relative;
+}
+
+.password__button {
+    position: absolute;
+    right: 10%;
+    top: 22.5%;
+    height: 24px;
+    padding: 5px;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline-color: #3590eb;
+}
+
+.hide-password {
+    background-image: url('./images/hidepass-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .socials__text {
