@@ -133,14 +133,21 @@ h1, h2, h3, h4, h5, h6, p {
     border: none;
     cursor: pointer;
     outline-color: #3590eb;
-
-    
 }
 
 .hide-password {
     background-image: url('./images/hiddenpassword-icon.png');
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.password-warning {
+    position: absolute;
+    left: 25px;
+    top: 110px;
+    font-size: 10px;
+    color: red;
+    display: none;
 }
 
 .socials__text {
