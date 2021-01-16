@@ -1,4 +1,4 @@
-# Sign up page
+# sign up page
 
 simple sign up page with a bit of JS. improvised with the mobile layout.
 
